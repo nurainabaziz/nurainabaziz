@@ -2,6 +2,10 @@
 
 This project analyzes web traffic logs, generates insights, and plots various traffic metrics. It includes Docker support for easy setup and deployment.
 
+# Data Pipeline Design Documentation 
+
+I've shared the data pipeline architecture using Airflow with the diagram provided. Capture.PNG
+
 ## Requirements
 
 - Docker
@@ -32,7 +36,8 @@ This project analyzes web traffic logs, generates insights, and plots various tr
 ## Output
 
 - The cleaned log data will be saved as `cleaned_logs.csv`.
-- Plots will be saved as PNG files in the `data` directory.
+- Data visualization screenshots are saved as PNG files in the `output` directory.
+  
 
 ## Author
 
